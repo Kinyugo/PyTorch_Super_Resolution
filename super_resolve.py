@@ -1,6 +1,13 @@
+import warnings
+
 import torch
-from utils import *
 from PIL import Image, ImageDraw, ImageFont
+from torch.serialization import SourceChangeWarning
+
+from utils import *
+
+# Supress warnings about changes in source code
+warnings.filterwarnings("ignore", category=SourceChangeWarning)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

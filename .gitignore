@@ -137,5 +137,8 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# Model checkpoints
-checkpoints/*
+# model checkpoints
+checkpoints/
+
+# random test file
+test.py
