@@ -48,4 +48,4 @@ if __name__ == "__main__":
     ssrgan_dest = "./checkpoints/checkpoint_srgan.pth.tar"
 
     download_file_from_google_drive(ssrresnet_id, ssrresnet_dest)
-    # download_file_from_google_drive(ssrgan_id, ssrgan_dest)
+    download_file_from_google_drive(ssrgan_id, ssrgan_dest)
